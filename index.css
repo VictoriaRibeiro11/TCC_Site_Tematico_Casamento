@@ -298,7 +298,7 @@ section .title::before
 }
 
 
-/*====| Linhas |====*/
+/*====| sOBRE |====*/
 .linhas span
 {
     font-size: 20px;
@@ -344,10 +344,16 @@ section .title::before
     color: white;
     padding: 8px 16px; /*espaçamento da borda do texto*/
     margin-top: 20px;
-    border: 2px solid #000000;
+    border: 1px solid #000000;
     transition: color 0.3s ease;
     position: relative;
     top: 30px;
+}
+
+.linhas a:hover
+{
+    color:#000000;
+    background:white;
 }
 
 /*====| Avaliações |====*/
